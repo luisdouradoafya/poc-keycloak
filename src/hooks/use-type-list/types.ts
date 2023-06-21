@@ -1,0 +1,1 @@
+export type UserTypeList = 'student' | 'doctor' | 'specialist';
