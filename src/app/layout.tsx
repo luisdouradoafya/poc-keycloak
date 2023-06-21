@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GlobalStyles />
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   )
 }

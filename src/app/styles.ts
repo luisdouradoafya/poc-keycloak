@@ -9,6 +9,7 @@ export const ContainerLayout = styled.body`
 
 export const HomeContent = styled.div`
     display: flex;
+    flex-direction: column;
     
     width: 100%;
     height: 100%;
@@ -16,4 +17,6 @@ export const HomeContent = styled.div`
     align-items: center;
     justify-content: center;
     justify-items: center;
+
+    gap: 30px;
 `;
